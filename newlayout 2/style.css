@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eff5f0; /* light green-gray background */
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+/* Top Logo + Navigation */
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin: 4px 0;
+}
+.logo, .nav {
+  flex: 1;
+  background-color: #919991;
+  height: 60px;          /* fixed height */
+  line-height: 60px;     /* vertical center */
+  text-align: center;
+  margin: 0;
+}
+
+/* Header */
+.header {
+  background-color: #919991;
+  height: 120px;         /* fixed height */
+  line-height: 120px;
+  text-align: center;
+  margin: 5px 0;
+}
+
+/* Intro */
+.intro {
+  background-color: #919991;
+  height: 80px;          /* fixed height */
+  line-height: 80px;
+  text-align: center;
+  margin: 5px 0;
+}
+
+/* 3 Boxes */
+.row {
+  display: flex;
+  gap: 10px;             /* spacing between boxes */
+  margin: 5px 0;         /* matches other sections */
+}
+.box {
+  background-color: #919991;
+  flex: 1;
+  height: 280px;         /* fixed height */
+  line-height: 280px;    /* vertical center */
+  text-align: center;
+  padding: 0;
+}
+
+/* Footer */
+.footer {
+  background-color: #919991;
+  height: 50px;          /* fixed height */
+  line-height: 50px;
+  text-align: center;
+  margin: 4px 0;
+}
